@@ -1,0 +1,38 @@
+# --- Python / backend ---
+**/__pycache__/
+*.py[cod]
+*.pyd
+backend/.venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+backend/logs/
+
+# Environment files (keep the examples)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+dist/
+.vite/
+*.tsbuildinfo
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local tooling ---
+coverage/
+htmlcov/
+*.sqlite
